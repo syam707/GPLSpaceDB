@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="VDAlgorithmicEngine/VDAlgorithmicEngine.csproj" />
+  <Project Path="VDTest/VDTest.csproj" />
+  <Project Path="VectorDatabase/VectorDatabase.csproj" />
+</Solution>

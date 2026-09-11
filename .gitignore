@@ -1,0 +1,22 @@
+## Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+
+## Visual Studio
+.vs/
+
+## NuGet
+*.nupkg
+packages/
+
+## Vector database data files
+# vectors.bin is preallocated to maxVectors * dimensions * 4 bytes - with the default
+# maxVectors of 10,000,000 at 128 dimensions that is a 5.12 GB file. Never commit it.
+*.bin
+*.dat
+*.hnsw
+vdtest-data/
